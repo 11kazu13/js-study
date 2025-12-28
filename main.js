@@ -32,3 +32,16 @@ console.log(memo);
 console.log("条件演算子（三項演算子）");
 let score = 80;
 console.log(score >= 70 ? "合格" : "不合格");
+
+// 配列の要素を追加・削除する
+console.log("配列の要素を追加・削除する");
+let list =["松", "竹", "梅"];
+list.push("桜");
+console.log(list);
+list.unshift("桃", "杏");
+console.log(list);
+console.log(list.pop());
+console.log(list);
+console.log(list.shift());
+console.log(list);
+
